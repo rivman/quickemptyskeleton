@@ -1,0 +1,13 @@
+/*
+* Custom CSS Protected from updated
+ */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+.pml-pre, .pml-prefake, .pml-preformatted {
+    font-family: 'Fira Code', monospace, serif;
+    }
+
+.label {
+    display: block;
+    width: 100%;
+    }
