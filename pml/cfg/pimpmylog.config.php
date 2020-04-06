@@ -36,8 +36,8 @@
 		"_remove_me_to_set_TAG_DISPLAY_LOG_FILES_COUNT" : true,
 		"_remove_me_to_set_TAG_NOT_TAGGED_FILES_ON_TOP" : true,
 		"_remove_me_to_set_TAG_SORT_TAG"                : "default | display-asc | display-insensitive | display-desc | display-insensitive-desc",
-		"_remove_me_to_set_TITLE"                       : "Pimp my Log",
-		"_remove_me_to_set_TITLE_FILE"                  : "Pimp my Log [%f]",
+		"_remove_me_to_set_TITLE"                       : "Logs",
+		"_remove_me_to_set_TITLE_FILE"                  : "Log [%f]",
 		"_remove_me_to_set_UPGRADE_MANUALLY_URL"        : "http:\/\/pimpmylog.com\/getting-started\/#update",
 		"_remove_me_to_set_USER_CONFIGURATION_DIR"      : "config.user.d",
 		"_remove_me_to_set_USER_TIME_ZONE"              : "Europe\/Paris"
