@@ -1,5 +1,6 @@
 # phpstorm project files
 .idea
+/.idea/
 
 # vscode project files
 .vscode
