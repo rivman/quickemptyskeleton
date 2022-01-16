@@ -7,14 +7,13 @@
  * Copyright (c) 2017 Potsky, contributors
  * Licensed under the GPLv3 license.
  */
-?>
-<?php
 
 /**
  * All possible paths where log files could be found
  *
  * @var  array
  */
+$custom_path_rd = $_SERVER['DOCUMENT_ROOT'] . '../../log/';
 $paths = array(
 	'/var/log/' ,
 	'/var/log/apache/' ,
@@ -27,6 +26,7 @@ $paths = array(
 	'/opt/local/apache2/logs/' ,
 	'/opt/local/httpd/logs/' ,
 	'C:/wamp/logs/' ,
+	$custom_path_rd,
 );
 
 
@@ -45,12 +45,14 @@ $files = array(
 		'error.log' ,
 		'error_log' ,
 		'apache_error.log' ,
+		getenv('HTTP_HOST') . '_error.log',
 	) ,
 	'access' => array(
 		'access.log' ,
 		'access_log' ,
 		'apache.log' ,
 		'apache_access.log' ,
+		getenv('HTTP_HOST') . '_access.log',
 	) ,
 );
 
